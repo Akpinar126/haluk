@@ -1,0 +1,19 @@
+1 =i used those dependencys
+        testng
+        webdrivermanager
+        selenium-java
+2 =i used page object model to centralize the locators and increase the usability
+
+3 =i put all data inside boxes by using send keys method i konow its not a good practice but since its only for the
+registration senario i thing it should be okey
+(if needed i can use data provider or using Apachi po dependency to achive data driven testing or i can use configuration file as well  )
+4 =i have some basic utilities
+        configurations reader
+        driver utill
+        BaseClass =i used  @before and  @after method inside my base class
+  i design  my driver util as  singleton  so i wont have any conflict to call drivers always it will be onl one driver
+  i create my configuration reader to read data from configuration file
+
+5 i create configuration file and i store my url and browser  type over there
+
+    if you have any questions please let me know most probably i have answer for it   thanks
